@@ -36,7 +36,6 @@ const getUsersWithinRadius = async (req, res) => {
 
 const createUser = async (req, res) => {
   const { name, latitude, longitude } = req.body;
-    console.log(name,'wefefwefwe')
   if (!name || !latitude || !longitude) {
     return res.status(400).json({ error: 'Name, latitude, and longitude are required.' });
   }

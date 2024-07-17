@@ -18,7 +18,7 @@
 3. Create a `.env` file and add the following environment variables:
 
     ```env
-    PORT=3000
+    PORT=5000
     MONGODB_URI=mongodb://localhost:27017/users
     ```
 
