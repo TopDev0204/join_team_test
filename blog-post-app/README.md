@@ -8,7 +8,7 @@ This is a simple blog post application built with the MERN stack.
 
     ```bash
     git clone <repository_url>
-    cd node-rest-api
+    cd blog-post-app
     ```
 
 2. Install dependencies:
